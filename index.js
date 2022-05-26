@@ -4,14 +4,11 @@ const OnlyNumber=(value)=>{
     }catch(e){
       return 0;
     }
-   
    }
-function isFloat(n){
+function isFloat(n){//This is isfloat function
     return Number(n) === n && n % 1 !== 0;
 }
-const NumberRound=(value,fixed=2)=>{
-   
-    // value=OnlyNumber(value);
+const NumberRound=(value,fixed=2)=>{//This is main function
      if(!!value){
      if(typeof value=="string"){
      let v = String(value);
